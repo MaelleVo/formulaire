@@ -1,0 +1,54 @@
+body {
+  background-color: #5948ca;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  height: 470px;
+  width: 320px;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#formulaire {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+input,
+textarea {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  height: 20px;
+  font-size: 12px;
+  padding-left: 10px;
+  color: grey;
+}
+
+textarea {
+  height: 160px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  resize: none;
+}
+
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #5948ca;
+  color: white;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
