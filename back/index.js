@@ -14,6 +14,7 @@ const mg = mailgun.client({
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 
 app.post("/send-form", async (req, res) => {
   try {
